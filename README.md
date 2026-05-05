@@ -9,7 +9,7 @@ sudo apt update
 sudo apt install -y ansible git openssh-client
 ```
 
-#### Ohjeet ssh yhteyden muodostamiseen githubissa
+#### Ohjeet SSH yhteyden muodostamiseen Githubissa
 
 **Luo SSH-avain**
 
@@ -24,7 +24,7 @@ Paina enteriä kaikkiin kysymyksiin
 cat ~/.ssh/id_ed25519.pub
 ```
 
-- githubista: settings
+- Githubista: Settings
 - SSH and GPG keys
 - New SSH key
 - liitä avain
@@ -42,7 +42,7 @@ git clone git@github.com:Timynurminen/secure-nginx-ansible.git
 cd secure-nginx-ansible
 ```
 
-## Aja ansible
+## Aja Ansible
 
 ```bash
 ansible-playbook site.yml -K
