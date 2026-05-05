@@ -97,3 +97,8 @@ Yhdellä komennolla saat:
 - perus kovennuksen
 - palomuurin
 - brute force -suojauksen
+
+## Tekijät
+
+- Timy Nurminen
+- Tapio Mäntylä
