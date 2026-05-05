@@ -6,7 +6,8 @@
 - name: Allow SSH
   ufw:
     rule: allow
-    name: OpenSSH
+    port: 22
+    proto: tcp
 
 - name: Allow HTTP
   ufw:

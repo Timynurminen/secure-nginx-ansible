@@ -1,6 +1,13 @@
+- name: Install OpenSSH server
+  apt:
+    name: openssh-server
+    state: present
+    update_cache: yes
+
 - name: Harden SSH - disable root login
   lineinfile:
     path: /etc/ssh/sshd_config
     regexp: '^PermitRootLogin'
     line: 'PermitRootLogin no'
+    create: yes
   notify: Restart SSH
