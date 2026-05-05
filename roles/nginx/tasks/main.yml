@@ -6,7 +6,7 @@
 
 - name: Copy index.html
   copy:
-    src: "../files/index.html"
+    src: index.html
     dest: /var/www/html/index.html
   notify: Restart nginx
   
