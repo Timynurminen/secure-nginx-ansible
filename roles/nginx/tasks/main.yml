@@ -8,7 +8,14 @@
   copy:
     src: "../files/index.html"
     dest: /var/www/html/index.html
-
+  notify: Restart nginx
+  
+- name: Copy nginx hardening config
+  copy:
+    src: nginx-hardening.conf
+    dest: /etc/nginx/conf.d/nginx-hardening.conf
+  notify: Restart nginx
+  
 - name: Start nginx
   service:
     name: nginx
