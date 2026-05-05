@@ -1,1 +1,1 @@
-# secure-nginx-ansible
+# secure-nginx-salt
