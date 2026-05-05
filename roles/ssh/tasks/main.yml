@@ -1,1 +1,10 @@
-asd
+- name: Harden SSH - disable root login
+  lineinfile:
+    path: /etc/ssh/sshd_config
+    regexp: '^PermitRootLogin'
+    line: 'PermitRootLogin no'
+
+- name: Restart SSH
+  service:
+    name: ssh
+    state: restarted
