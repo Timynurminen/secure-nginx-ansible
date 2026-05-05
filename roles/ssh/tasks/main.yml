@@ -3,8 +3,4 @@
     path: /etc/ssh/sshd_config
     regexp: '^PermitRootLogin'
     line: 'PermitRootLogin no'
-
-- name: Restart SSH
-  service:
-    name: ssh
-    state: restarted
+  notify: Restart SSH
