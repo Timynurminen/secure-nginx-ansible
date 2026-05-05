@@ -11,7 +11,7 @@ sudo apt update
 sudo apt install -y ansible git openssh-client
 ```
 
-#### Ohjeet SSH yhteyden muodostamiseen Githubissa
+#### Ohjeet SSH yhteyden muodostamiseen GitHubissa
 
 **Luo SSH-avain**
 
@@ -20,13 +20,13 @@ ssh-keygen -t ed25519 -C "email@example.com"
 ```
 Paina enteriä kaikkiin kysymyksiin
 
-**Lisää avain githubiin**
+**Lisää avain GitHubiin**
 
 ```bash
 cat ~/.ssh/id_ed25519.pub
 ```
 
-- Githubista: Settings
+- GitHubista: Settings
 - SSH and GPG keys
 - New SSH key
 - liitä avain
