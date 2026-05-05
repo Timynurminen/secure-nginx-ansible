@@ -1,0 +1,9 @@
+- hosts: localhost
+  become: yes
+
+  roles:
+    - nginx
+    - firewall
+    - fail2ban
+    - ssh
+    
