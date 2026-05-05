@@ -87,6 +87,10 @@ curl http://localhost
 
 # Lopputulos
 
+
+<img width="1281" height="805" alt="image" src="https://github.com/user-attachments/assets/edccb50d-8f3e-4dcf-81f9-9a731468e3a9" />
+
+
 Yhdellä komennolla saat:
 
 - valmiin web-palvelimen
