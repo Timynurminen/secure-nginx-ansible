@@ -1,6 +1,8 @@
 # Secure Nginx Ansible
 
-## Infrastructure as Code -projekti, joka asentaa ja koventaa web-palvelimen Ansiblella. Se ei ole vielä täydellinen production-tason security baseline.
+## Infrastructure as Code -projekti, joka asentaa ja koventaa web-palvelimen Ansiblella. 
+
+##### Toteutus on tarkoitettu oppimis- ja demokäyttöön, eikä sellaisenaan korvaa production-tason tietoturvaa.
 
 # Quick start
 
