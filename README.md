@@ -4,25 +4,25 @@
 
 # Quick start
 
-´´´bash
+```bash
 sudo apt update
 sudo apt install -y ansible git openssh-client
-´´´
+```
 
 #### Ohjeet ssh yhteyden muodostamiseen githubissa
 
 **Luo SSH-avain**
 
-´´´bash
+```bash
 ssh-keygen -t ed25519 -C "email@example.com"
-´´´
+```
 Paina enteriä kaikkiin kysymyksiin
 
 **Lisää avain githubiin**
 
-´´´bash
+```bash
 cat ~/.ssh/id_ed25519.pub
-´´´
+```
 
 - githubista: settings
 - SSH and GPG keys
@@ -31,36 +31,36 @@ cat ~/.ssh/id_ed25519.pub
 
 **Testaa yhteys**
 
-´´´bash
+```bash
 ssh -T git@github.com
-´´´
+```
 
 ## Kloonaa projekti
 
-´´´bash
+```bash
 git clone git@github.com:Timynurminen/secure-nginx-ansible.git
 cd secure-nginx-ansible
-´´´
+```
 
 ## Aja ansible
 
-´´´bash
+```bash
 ansible-playbook site.yml -K
-´´´
+```
 
 - Syötä sudo-salasana pyydettäessä
 
 ## Testaus
 
-´´´bash
+```bash
 firefox http://localhost
-´´´
+```
 
 **TAI**
 
-´´´bash
+```bash
 curl http://localhost
-´´´
+```
 
 # Mitä projekti tekee
 
